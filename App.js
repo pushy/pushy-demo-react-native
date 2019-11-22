@@ -15,7 +15,7 @@ import { Platform, StyleSheet, Text, Image, View, StatusBar } from 'react-native
 // Import Pushy RN JS SDK
 import Pushy from 'pushy-react-native';
 
-// Pushy Notification Listener/Handler (HeadlessJS)
+// Pushy Notification Listener (HeadlessJS)
 // Invoked even if your app is in the background
 Pushy.setNotificationListener(async (data) => {
   // Print notification payload data
@@ -28,7 +28,16 @@ Pushy.setNotificationListener(async (data) => {
   let notificationText = data.message || 'Test notification';
 
   // Display basic system notification
-  Pushy.notify(notificationTitle, notificationText);
+  Pushy.notify(notificationTitle, notificationText, data);
+});
+
+// Pushy Notification Click Listener
+Pushy.setNotificationClickListener(async (data) => {
+  // Display basic alert
+  alert('Clicked notification: ' + data.message);
+
+  // Navigate the user to another page or 
+  // execute other logic on notification click
 });
 
 type Props = {};
