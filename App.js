@@ -15,6 +15,9 @@ import { Platform, StyleSheet, Text, Image, View, StatusBar } from 'react-native
 // Import Pushy RN JS SDK
 import Pushy from 'pushy-react-native';
 
+// Enable in-app notification banners (iOS 10+)
+Pushy.toggleInAppBanner(true);
+
 // Pushy Notification Listener (HeadlessJS)
 // Invoked even if your app is in the background
 Pushy.setNotificationListener(async (data) => {
