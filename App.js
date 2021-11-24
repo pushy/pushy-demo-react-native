@@ -32,6 +32,9 @@ Pushy.setNotificationListener(async (data) => {
 
   // Display basic system notification
   Pushy.notify(notificationTitle, notificationText, data);
+
+  // Clear iOS badge count
+  Pushy.setBadge(0);
 });
 
 // Pushy Notification Click Listener
