@@ -139,7 +139,7 @@ android {
 
 dependencies {
     // Pushy SDK for Android
-    compile 'me.pushy:sdk:1.0.58'
+    compile 'me.pushy:sdk:1.0.76'
 
     // Pushy SDK for React Native Android
    compile 'me.pushy:sdk-react-native:1.0.17'
