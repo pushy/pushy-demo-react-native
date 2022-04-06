@@ -24,7 +24,7 @@ Visit our documentation to [integrate Pushy into your existing React Native app]
 * Clone the repository locally: `git clone https://github.com/pushy-me/pushy-demo-react-native.git`
 * Run `cd pushy-demo-react-native`
 * Run `npm install` to install the React Native dependencies
-* For Android, run `react-native run-android` to run the app on either an emulator or a connected Android device
+* For Android, run `npx react-native run-android` to run the app on either an emulator or a connected Android device
 * For iOS, open the `ios/Pushy.xcodeproj` in Xcode, select your physical device, update the Signing Team in the project properties, and press **Run** to run the app on your iOS device
 * Copy the device token from the Xcode console and paste it into the [demo page](https://pushy.me/docs/resources/demo) to send yourself a test notification
 
