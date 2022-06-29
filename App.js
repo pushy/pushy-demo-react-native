@@ -1,6 +1,6 @@
 /**
  * Pushy Demo for React Native
- * https://github.com/pushy-me/pushy-demo-react-native
+ * https://github.com/pushy/pushy-demo-react-native
  *
  * Refer to our docs:
  * https://pushy.me/docs/additional-platforms/react-native
