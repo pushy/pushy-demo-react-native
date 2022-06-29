@@ -1,6 +1,6 @@
 # pushy-demo-react-native
 
-A demo of the [Pushy SDK for React Native](https://github.com/pushy-me/pushy-react-native) integrated into a sample React Native app.
+A demo of the [Pushy SDK for React Native](https://github.com/pushy/pushy-react-native) integrated into a sample React Native app.
 
 > [Pushy](https://pushy.me/) is the most reliable push notification gateway, perfect for real-time, mission-critical applications.
 
@@ -21,7 +21,7 @@ Visit our documentation to [integrate Pushy into your existing React Native app]
 ## Get Started
 
 * Make sure you have an up-to-date version of the React Native CLI installed: `npm install -g react-native-cli`
-* Clone the repository locally: `git clone https://github.com/pushy-me/pushy-demo-react-native.git`
+* Clone the repository locally: `git clone https://github.com/pushy/pushy-demo-react-native.git`
 * Run `cd pushy-demo-react-native`
 * Run `npm install` to install the React Native dependencies
 * For Android, run `npx react-native run-android` to run the app on either an emulator or a connected Android device
