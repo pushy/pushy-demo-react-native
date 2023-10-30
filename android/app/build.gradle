@@ -144,10 +144,13 @@ android {
 
 dependencies {
     // Pushy SDK for Android
-    compile 'me.pushy:sdk:1.0.85'
+    implementation 'me.pushy:sdk:1.0.97'
 
     // Pushy SDK for React Native Android
-   compile 'me.pushy:sdk-react-native:1.0.17'
+    implementation 'me.pushy:sdk-react-native:1.0.20'
+
+    // FCM Fallback Delivery
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
 
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
