@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Pushy.app"
-               BlueprintName = "Pushy"
+               BuildableName = "RnDiffApp.app"
+               BlueprintName = "RnDiffApp"
                ReferencedContainer = "container:Pushy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "PushyTests.xctest"
-               BlueprintName = "PushyTests"
+               BuildableName = "RnDiffAppTests.xctest"
+               BlueprintName = "RnDiffAppTests"
                ReferencedContainer = "container:Pushy.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,8 +55,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Pushy.app"
-            BlueprintName = "Pushy"
+            BuildableName = "RnDiffApp.app"
+            BlueprintName = "RnDiffApp"
             ReferencedContainer = "container:Pushy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -72,8 +72,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Pushy.app"
-            BlueprintName = "Pushy"
+            BuildableName = "RnDiffApp.app"
+            BlueprintName = "RnDiffApp"
             ReferencedContainer = "container:Pushy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
