@@ -112,7 +112,7 @@ dependencies {
     implementation("com.facebook.react:react-android")
 
     // Pushy SDK for Android
-    implementation 'me.pushy:sdk:1.0.103'
+    implementation 'me.pushy:sdk:1.0.121'
 
     // Pushy SDK for React Native Android
     implementation 'me.pushy:sdk-react-native:1.0.22'
