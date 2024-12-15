@@ -115,7 +115,7 @@ dependencies {
     implementation 'me.pushy:sdk:1.0.103'
 
     // Pushy SDK for React Native Android
-    implementation 'me.pushy:sdk-react-native:1.0.20'
+    implementation 'me.pushy:sdk-react-native:1.0.22'
 
     // FCM Fallback Delivery
     implementation 'com.google.firebase:firebase-messaging:23.1.2'
