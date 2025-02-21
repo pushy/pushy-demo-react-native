@@ -8,8 +8,3 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
-
--dontwarn me.pushy.**
--keep class me.pushy.** { *; }
--keep class androidx.core.app.** { *; }
--keep class android.support.v4.app.** { *; }
