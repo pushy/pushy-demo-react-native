@@ -9,9 +9,6 @@ class AppDelegate: RCTAppDelegate {
     self.moduleName = "Pushy"
     self.dependencyProvider = RCTAppDependencyProvider()
 
-    // Initialize Pushy Module
-    PushyModule.didFinishLaunching(options: launchOptions ?? [:])
-
     // You can add your custom initial props in the dictionary below.
     // They will be passed down to the ViewController used by React Native.
     self.initialProps = [:]
