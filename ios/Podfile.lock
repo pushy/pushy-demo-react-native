@@ -15,7 +15,7 @@ PODS:
   - MqttCocoaAsyncSocket (1.0.8)
   - Pushy (1.0.57):
     - CocoaMQTT (= 2.1.0)
-  - PushyRN (1.0.49):
+  - PushyRN (1.0.50):
     - Pushy (= 1.0.57)
     - React (< 1.0.0, >= 0.13.0)
   - RCT-Folly (2024.11.18.00):
@@ -1739,7 +1739,7 @@ SPEC CHECKSUMS:
   hermes-engine: 1f783c3d53940aed0d2c84586f0b7a85ab7827ef
   MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
   Pushy: b79f58222c0d060011c72983656edaa40d0d3967
-  PushyRN: d096b405f60e346a301f86a9f7cbd17ee27b2b5b
+  PushyRN: 60f2dd8c2737fd8f11753520025936793729bb41
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
   RCTDeprecation: f5c19ebdb8804b53ed029123eb69914356192fc8
   RCTRequired: 6ae6cebe470486e0e0ce89c1c0eabb998e7c51f4
