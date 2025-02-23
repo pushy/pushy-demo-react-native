@@ -1,9 +1,5 @@
 PODS:
   - boost (1.84.0)
-  - CocoaMQTT (2.1.0):
-    - CocoaMQTT/Core (= 2.1.0)
-  - CocoaMQTT/Core (2.1.0):
-    - MqttCocoaAsyncSocket (~> 1.0.8)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
   - FBLazyVector (0.77.0)
@@ -12,11 +8,9 @@ PODS:
   - hermes-engine (0.77.0):
     - hermes-engine/Pre-built (= 0.77.0)
   - hermes-engine/Pre-built (0.77.0)
-  - MqttCocoaAsyncSocket (1.0.8)
-  - Pushy (1.0.57):
-    - CocoaMQTT (= 2.1.0)
-  - PushyRN (1.0.50):
-    - Pushy (= 1.0.57)
+  - Pushy (1.0.59)
+  - PushyRN (1.0.52):
+    - Pushy (= 1.0.59)
     - React (< 1.0.0, >= 0.13.0)
   - RCT-Folly (2024.11.18.00):
     - boost
@@ -1520,7 +1514,6 @@ DEPENDENCIES:
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
-  - MqttCocoaAsyncSocket
   - PushyRN (from `../node_modules/pushy-react-native`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -1586,8 +1579,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - CocoaMQTT
-    - MqttCocoaAsyncSocket
     - Pushy
     - SocketRocket
 
@@ -1729,17 +1720,15 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  boost: 1dca942403ed9342f98334bf4c3621f011aa7946
-  CocoaMQTT: 43666585403f664bb55361189c03c54897060324
-  DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
+  boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
+  DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 2bc03a5cf64e29c611bbc5d7eb9d9f7431f37ee6
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
-  glog: 08b301085f15bcbb6ff8632a8ebaf239aae04e6a
+  glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
   hermes-engine: 1f783c3d53940aed0d2c84586f0b7a85ab7827ef
-  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
-  Pushy: b79f58222c0d060011c72983656edaa40d0d3967
-  PushyRN: 60f2dd8c2737fd8f11753520025936793729bb41
+  Pushy: 66d81a307ff884be0b9cf1a9d2c4d64332b4d384
+  PushyRN: c3352074d40f69adddbad6c98bc46e4a77a8fb7a
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
   RCTDeprecation: f5c19ebdb8804b53ed029123eb69914356192fc8
   RCTRequired: 6ae6cebe470486e0e0ce89c1c0eabb998e7c51f4
@@ -1801,6 +1790,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 78d74e245ed67bb94275a1316cdc170b9b7fe884
 
-PODFILE CHECKSUM: 74e70a838f67587e65e059c6d94c3445fbc560a2
+PODFILE CHECKSUM: ca499dba48236b62376bc047bd2a1e00644eb9ec
 
 COCOAPODS: 1.16.2

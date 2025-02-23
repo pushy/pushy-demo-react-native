@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "pushy-react-native": "^1.0.50",
+    "pushy-react-native": "^1.0.52",
     "react": "^18.3.1",
     "react-native": "^0.77.0"
   },
