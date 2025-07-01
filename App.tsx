@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {StatusBar, StyleSheet, Text, Image, View, Platform} from 'react-native';
 
 // Import Pushy RN JS SDK
@@ -135,7 +134,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     margin: 10,
-    color: Colors.darker,
+    color: '#121212',
   },
   instructions: {
     fontSize: 14,
@@ -143,7 +142,7 @@ const styles = StyleSheet.create({
     marginLeft: 25,
     marginRight: 25,
     marginBottom: 5,
-    color: Colors.dark,
+    color: '#121212',
   },
   logo: {
     height: 90,
