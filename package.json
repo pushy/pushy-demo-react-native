@@ -12,7 +12,7 @@
   "dependencies": {
     "pushy-react-native": "^1.0.55",
     "react": "19.1.0",
-    "react-native": "0.80.1",
+    "react-native": "0.87.1",
     "@react-native/new-app-screen": "0.80.1"
   },
   "devDependencies": {
@@ -24,7 +24,7 @@
     "@react-native-community/cli-platform-ios": "20.1.2",
     "@react-native/babel-preset": "0.80.1",
     "@react-native/eslint-config": "0.80.1",
-    "@react-native/metro-config": "0.80.1",
+    "@react-native/metro-config": "0.87.1",
     "@react-native/typescript-config": "0.80.1",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.1.0",
